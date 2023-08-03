@@ -12,5 +12,8 @@ mike = User.create(username: "Mike")
 
 cat_photo = Artwork.create(title: "meowow",image_url:"xyz",artist_id:3)
 
-moma = ArtworkShare.create(:artwork_id:1,viewer_id:1)
-moma_2 = ArtworkShare.create(:artwork_id:1,viewer_id:2)
+moma = ArtworkShare.create(artwork_id: 1, viewer_id: 1)
+moma_2 = ArtworkShare.create(artwork_id: 1, viewer_id: 2)
+
+
+artworkshare.rb
