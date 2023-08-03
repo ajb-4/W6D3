@@ -11,5 +11,4 @@ Rails.application.routes.draw do
   # get 'chirps/:id/edit', to: 'chirps#edit'
   # Defines the root path route ("/")
   # root "articles#index"
-  "sss"
 end
